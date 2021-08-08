@@ -11,6 +11,6 @@ setup(
     author = 'Muhammad Ali',
     author_email = 'malirashid1994@gmail.com',
     url = 'https://github.com/alihussainia/Py2Exe-Converter',
-    download_url = 'download link you saved',
+    download_url = 'https://github.com/alihussainia/Py2Exe-Converter/archive/refs/tags/v1.0.0.tar.gz',
     keywords = ['py2exe', 'pyinstaller', 'python to exe converter', 'converter'],
 )
