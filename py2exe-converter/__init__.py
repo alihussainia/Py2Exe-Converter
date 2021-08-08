@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import getopt, sys
 from subprocess import call
 import os
