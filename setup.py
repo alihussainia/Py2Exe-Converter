@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     long_description = """The package allows users (linux) to convert python scripts into executable files by simply using the py2exe-converter -f <python-file-name.py>. 
@@ -13,4 +13,5 @@ setup(
     url = 'https://github.com/alihussainia/Py2Exe-Converter',
     download_url = 'https://github.com/alihussainia/Py2Exe-Converter/archive/refs/tags/v1.0.0.tar.gz',
     keywords = ['py2exe', 'pyinstaller', 'python to exe converter', 'converter'],
+    zip_safe=False
 )
