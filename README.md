@@ -13,3 +13,7 @@ pip install pyinstaller
 pyinstaller --hidden-import 'pandas' --onefile 'example.py'
 ```
 3. Open the `dist` folder and you will find your .exe file. 
+
+For `LINUX USERS`:
+
+[MyBinder Link - Try in your Browser](https://mybinder.org/v2/gh/alihussainia/Py2Exe-Converte/main?urlpath=lab)
