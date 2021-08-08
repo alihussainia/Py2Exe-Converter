@@ -1,19 +1,21 @@
 # Py2Exe-Converter
 
-For `WINDOWS USERS`: 
+For `Linux Users`:
 
-If you are working in a command prompt on windows then follow these guidelines:
+Follow the two-step guide to easily convert your python scripts to executable files:
 
-1. Install the `pyinstaller` package using the below mentioned command:
+1. Install the `py2exe-converter` package using the below mentioned command:
 ```bash
-pip install pyinstaller
+pip install py2exe-converter
 ```
 2. Now run the below mentioned command to convert the `.py` file to `.exe` file.
 ```bash
-pyinstaller --hidden-import 'pandas' --onefile 'example.py'
+py2exe-converter -f 'example.py' 
 ```
-3. Open the `dist` folder and you will find your .exe file. 
+Note: You can use `-p requirements.txt` along with the above command in order to install all the packages in the `.exe` file that are used by your `.py` file.
 
-For `LINUX USERS`:
+3. Open the `example.exe` file and come that the program is running fine :) 
 
-[MyBinder Link - Try in your Browser](https://mybinder.org/v2/gh/alihussainia/Py2Exe-Converter/main?urlpath=lab)
+### **Try `Py2Exe-Converter`in your browser**:
+
+[MyBinder-Link](https://mybinder.org/v2/gh/alihussainia/Py2Exe-Converter/main?urlpath=lab)
