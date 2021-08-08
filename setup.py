@@ -6,7 +6,7 @@ setup(
     Lastly, a huge shoutout to pyinstaller developers who made such an incredible solution that provided a solid base to this project. Thanks amigos!""",
     name = 'py2exe_converter',
     packages = ['py2exe_converter'],
-    version = 'v1.1.9',
+    version = 'v1.0.0',
     description = 'Python to Exe file converter package',
     author = 'Muhammad Ali',
     author_email = 'malirashid1994@gmail.com',
