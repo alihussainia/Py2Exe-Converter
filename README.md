@@ -16,4 +16,4 @@ pyinstaller --hidden-import 'pandas' --onefile 'example.py'
 
 For `LINUX USERS`:
 
-[MyBinder Link - Try in your Browser](https://mybinder.org/v2/gh/alihussainia/Py2Exe-Converte/main?urlpath=lab)
+[MyBinder Link - Try in your Browser](https://mybinder.org/v2/gh/alihussainia/Py2Exe-Converter/main?urlpath=lab)
