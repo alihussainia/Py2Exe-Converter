@@ -2,7 +2,7 @@
 
 For `Linux Users`:
 
-Follow the two-step guide to easily convert your python scripts to executable files:
+Follow this guide to easily convert your python scripts to executable files:
 
 1. Install the `py2exe-converter` package using the below mentioned command:
 ```bash
